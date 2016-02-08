@@ -2,6 +2,12 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/bower_components/foundation-sites/dist/foundation.min.css')
+    link(rel='stylesheet', href='/css/example.css')
   body
     block content
+    
+    script(src="/bower_components/jquery/dist/jquery.min.js")
+    script(src='/bower_components/foundation-sites/dist/foundation.min.js')
+    script(src='/js/main.js')
+    block scripts
